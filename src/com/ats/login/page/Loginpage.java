@@ -21,7 +21,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Loginpage {
-//comment in git hub 
+//comment in git hub in repo
 	Loginpage(WebDriver driver) {
 
 		driver.get("https://sight-spectrum-ats.vercel.app/login");
