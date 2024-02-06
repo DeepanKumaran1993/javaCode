@@ -21,7 +21,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Loginpage {
-
+//comment in git hub 
 	Loginpage(WebDriver driver) {
 
 		driver.get("https://sight-spectrum-ats.vercel.app/login");
@@ -73,6 +73,7 @@ public class Loginpage {
 		// Robot robo = new Robot();
 		driver.findElement(By.xpath("//*[@id=\"personaId\"]/div/div[1]")).click();
 
+	
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 //		js.executeScript("window.scrollBy(0,300)", "");	
 		js.executeScript("window.scrollBy(0,document.body.scrollHeight)", "");
